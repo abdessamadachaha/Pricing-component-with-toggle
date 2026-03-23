@@ -1,0 +1,69 @@
+.pricing {
+    display: flex;
+    align-items: center;
+    height: 30rem;
+    padding: 20px;
+}
+
+.pricing div {
+    padding: 30px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    height: 25rem;
+    background-color: white;
+
+}
+
+.pricing .item1 {
+    padding: 40px 50px;
+    height: 28rem;
+    background-color:hsl(238, 63%, 64%);
+    color: white;
+}
+
+.pricing div button {
+    background-color: hsl(238, 63%, 64%);
+    color: white;
+    width: 100%;
+    padding: 9px 0;
+    border: none;
+    font-weight: 700;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+}
+
+.pricing .item1 button {
+    background-color: white;
+    color: hsl(238, 63%, 64%);
+}
+
+.pricing div h1 {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.pricing div h1 span {
+    font-size: 1.3rem;
+}
+
+.pricing div ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+} 
+
+.pricing div ul li {
+    border-bottom: 1px solid rgb(213, 212, 212);
+    padding: 10px;
+    width: 100%;
+}
+
+.pricing div ul li:first-child {
+    border-top: 1px solid rgb(213, 212, 212);
+
+}

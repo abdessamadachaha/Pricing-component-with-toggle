@@ -1,0 +1,40 @@
+.toggle {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.toggle p {
+    color: gray;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.switch {
+  width: 52px;
+  height: 30px;
+  /* padding: 10px 30px ; */
+  background: #ccc;
+  border-radius: 30px;
+  cursor: pointer;
+  position: relative;
+  transition: 0.3s;
+}
+
+.switch.on {
+  background: linear-gradient(hsl(237, 73%, 79%) ,hsl(238, 63%, 64%));
+    }
+
+.circle {
+  width: 23px;
+  height: 23px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 3px;
+  left: 4px;
+  transition: 0.3s;
+}
+
+.switch.on .circle {
+  transform: translateX(20px);
+}
